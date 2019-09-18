@@ -53,12 +53,16 @@ body {
 }
 
 .intuit-logo {
-  opacity: 0.5;
-  /* width: 118px; */
-  /* height: 35px; */
+  
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.intuit-logo img {
+  opacity: 0.4;
+  width: 25%;
+  height: auto;
 }
 
 .other-logos {
@@ -68,6 +72,44 @@ body {
   margin-bottom: 20px;
 }
 
+.other-logos img {
+  width: 5%;
+  height: auto;
+}
+
 .other-logos a {
   margin-right: 10px;
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1px;
+  margin-left: 2px;
+}
+
+/* Form */
+
+form {
+    border: 1px solid;
+    background-color: #fff;
+    border-color: #0000004a;
+    border-radius: 2px;
+    padding: 40px 30px;
+    text-align: center;
+    margin: 0 100px;
+}
+
+form legend {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    text-align: left;
 }
