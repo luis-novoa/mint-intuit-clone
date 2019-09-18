@@ -155,7 +155,7 @@ fieldset a {
 }
 
 .terms p,
-a {
+.terms a {
   font-style: italic;
   font-size: 12.5px;
   line-height: 27px;
@@ -163,4 +163,28 @@ a {
 
 .captcha {
   background-color: #eceef1;
+  font-size: 10px;
+  font-weight: 400;
+  color: #8d9096;
+  padding: 20px 30px;
+}
+
+.captcha a {
+    color: #0077c5;
+    font-style: normal;
+    font-size: 10px;
+}
+
+/* Footer */
+footer {
+    font-size: 12px;
+    color: #505050;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    margin: 0 5px;
 }
