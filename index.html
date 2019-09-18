@@ -22,16 +22,60 @@
         </div>
     </header>
     <header class="logos">
-        <a>mint</a>
-        <a>quickbooks</a>
-        <a>turbotax</a>
+        <div class="intuit-logo">
+            <img src="/images/logo-intuit-black.svg" alt="Intuit logo.">
+        </div>
+        <div class="other-logos">
+            <img src="images/mint.svg" alt="Mint logo.">
+            <a>mint</a>
+            <img src="./images/quickbooks.svg" alt="Quickbooks logo.">
+            <a>quickbooks</a>
+            <img src="images/turbotax.svg" alt="Turbotax logo.">
+            <a>turbotax</a>
+        </div>
     </header>
     <form>
         <fieldset>
             <legend>Create an Inuit account</legend>
             <p>One account for everything Inuit, including Mint.</p>
             <a>Learn more</a>
+            <div class="form-group">
+                <label for="email">Email adress</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone (recommended)</label>
+                <input type="tel" name="phone">
+                <p>Standard call, messaging or data rates may apply.</p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+            <div class="sign-in">
+                <button>
+                    <i class="fas fa-lock"></i>
+                    Create Account
+                </button>
+            </div>
+            <div class="terms">
+                <p>By clicking Create account, you agree to our <a>Terms</a> and have read and acknowledge our <a>Privacy Statement</a>.</p>
+            </div>
+            <div class="captcha">
+                <p>nvisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</p>
+            </div>
         </fieldset>
     </form>
+    <footer>
+        <div class="footer-links">
+            <a>Legal</a>
+            <a>Privacy</a>
+            <a>Security</a>
+        </div>
+        <div>
+            <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </div>
+    </footer>
 </body>
 </html>
