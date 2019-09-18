@@ -1,3 +1,73 @@
+/* General  styling */
+
 body {
-    background-color: #eceef1;
+  background-color: #eceef1;
+  font-family: 'Nunito', sans-serif;
+  padding: 10px 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+/* sign-up header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.account {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.account p {
+  line-height: 18px;
+  color: #505050;
+}
+
+.account a {
+  line-height: 1.5em;
+  color: #0077c5;
+}
+
+.sign-in button {
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 8px 25px;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Logos Header */
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intuit-logo {
+  opacity: 0.5;
+  /* width: 118px; */
+  /* height: 35px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.other-logos a {
+  margin-right: 10px;
 }
